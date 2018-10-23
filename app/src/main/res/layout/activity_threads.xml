@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+		tools:context=".ThreadsActivity"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+	<Button
+			android:id="@+id/create_thread_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/create"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/start_thread_btn"/>
+	<Button
+			android:id="@+id/start_thread_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/start"
+			app:layout_constraintStart_toEndOf="@id/create_thread_btn"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/cancel_thread_btn"/>
+	<Button
+			android:id="@+id/cancel_thread_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/cancel"
+			app:layout_constraintStart_toEndOf="@id/start_thread_btn"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"/>
+	<TextView
+			android:id="@+id/text_thread"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginTop="10dp"
+			app:layout_constraintTop_toBottomOf="@id/start_thread_btn"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="@id/create_thread_btn"
+			app:layout_constraintEnd_toEndOf="@id/cancel_thread_btn"
+			android:background="@color/threads_color"/>
+
+</android.support.constraint.ConstraintLayout>
