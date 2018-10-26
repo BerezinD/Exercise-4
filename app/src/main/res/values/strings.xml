@@ -5,4 +5,8 @@
 	<string name="create">create</string>
 	<string name="start">start</string>
 	<string name="cancel">cancel</string>
+	<string name="do_start">Lets\'s start!</string>
+	<string name="task_created">Task already created!</string>
+	<string name="task_started">Task already started!</string>
+	<string name="create_first">Create first!</string>
 </resources>

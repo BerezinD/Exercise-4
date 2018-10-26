@@ -41,6 +41,10 @@
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintStart_toStartOf="@id/create_async_btn"
 			app:layout_constraintEnd_toEndOf="@id/cancel_async_btn"
-			android:background="@color/async_task_color"/>
+			android:background="@color/async_task_color"
+			android:textSize="40sp"
+			tools:text="10"
+			android:textColor="@color/colorAccent"
+			android:gravity="center"/>
 
 </android.support.constraint.ConstraintLayout>
