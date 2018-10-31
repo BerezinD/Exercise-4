@@ -14,7 +14,7 @@ class AsyncTaskActivity : AppCompatActivity(), InterfaceAsyncTask {
 
     var textView: TextView? = null
     var task: MyAsyncTask? = null
-    var currentPosition: Int = 0
+    var currentPosition: Int = 10
     var textToSave: String? = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {

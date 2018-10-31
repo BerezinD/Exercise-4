@@ -9,4 +9,5 @@
 	<string name="task_created">Task already created!</string>
 	<string name="task_started">Task already started!</string>
 	<string name="create_first">Create first!</string>
+	<string name="done">Done!</string>
 </resources>
